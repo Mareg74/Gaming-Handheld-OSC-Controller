@@ -1,0 +1,19 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build
+/app/build/
+/captures
+.externalNativeBuild
+.cxx
+
+# NDI SDK Advanced (licensed; not committed — see README)
+third_party/ndi/
+app/src/main/jniLibs/
+
+# Local scratch / device dumps / built APKs
+tmp/
+*.apk
+!docs/**/*.apk
